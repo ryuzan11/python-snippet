@@ -40,7 +40,7 @@ def cerberus_research(params):
 
 params = {
     'name': 0,
-    'id': 'test'
+    'id': 'tests'
 }
 
 # params = {
@@ -48,7 +48,7 @@ params = {
 # }
 
 # params = {
-#     'id': 'test'
+#     'id': 'tests'
 # }
 
 # params = {

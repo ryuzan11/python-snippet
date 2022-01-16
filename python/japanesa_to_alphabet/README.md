@@ -1,0 +1,2 @@
+- pykakasiのインストールが必要
+- japanesa_to_alphabet配下に変換対象のエクセルを格納

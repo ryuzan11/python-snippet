@@ -23,4 +23,4 @@ def test_error3():
     with pytest.raises(Exception) as e:
         exception_error()
 
-    assert str(e.value) == 'test'
+    assert str(e.value) == 'tests'

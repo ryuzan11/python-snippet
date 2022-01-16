@@ -14,6 +14,8 @@ def requests_post(name):
 
     response = requests.post(url, headers=headers, json=json_data)
 
+    print(response)
+
     response_json_data = response.json()
     response_data = response_json_data.get('data')
 
