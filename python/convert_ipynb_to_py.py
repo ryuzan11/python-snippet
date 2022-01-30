@@ -20,7 +20,7 @@ def main(pathname_list):
     return
 
 
-def move_py_file(target_folder_path, destination_path='jupyter_to_py'):
+def move_py_file(target_folder_path, destination_path='jupyter'):
     for target_filepath in get_filepath_list(target_folder_path):
         shutil.move(target_filepath, destination_path)
 
