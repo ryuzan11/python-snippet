@@ -1,0 +1,10 @@
+Conditions:
+  IsSgForEfs: !Not
+    - !Equals
+      - ""
+      - !FindInMap [ EnvMap, !Ref Env, VPCsecuritygroupForEfs ]
+
+- !If
+  - IsSgForEfs
+  - !FindInMap [ EnvMap, !Ref Env, VPCsecuritygroupForEfs ]
+  - !Ref AWS::NoValue

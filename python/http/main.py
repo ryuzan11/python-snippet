@@ -47,7 +47,7 @@ def main(args):
     return
 
 
-# python main.py -d 5 -s 500 -sl [400, 401]
+# python get_cwd.py -d 5 -s 500 -sl [400, 401]
 if __name__ == '__main__':
 
     # TODO ifで遅延かステータスかで関数選べたらいいかも
